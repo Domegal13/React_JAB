@@ -1,14 +1,21 @@
 .contenedor {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: lightgray;
+    background-color: #242424;
 }
 
 .card {
     padding: 2em;
+    margin: 20px;
     background-color: darkgoldenrod;
+    border-radius: 10px;
+
+    & h2 {
+        color: #000;
+    }
 }
 .card:hover {
     cursor: pointer;
