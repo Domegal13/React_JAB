@@ -19,10 +19,6 @@ function App() {
             nombre: "Atanagildo",
             img: atanagildo,
         },
-        // {
-        //     nombre: "Incognito",
-        //     img: incognito,
-        // },
     ];
 
     const cambiarImagen = (e) => {

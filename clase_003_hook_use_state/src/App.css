@@ -1,0 +1,29 @@
+section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+input {
+    width: 8rem;
+    line-height: 5rem;
+    margin: 5px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #999;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    margin: 10px;
+    padding: 5px 10px;
+}

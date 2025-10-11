@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px;
+    margin: 10px;
+
+    & button {
+        width: 200px;
+        height: 80px;
+    }
+
+    .rojo {
+        background: #d8211e;
+    }
+
+    .verde {
+        background: #00550f;
+    }
+}

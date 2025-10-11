@@ -23,13 +23,6 @@ function App() {
 
     const convertir = (e) => {
         refCaja.current.textContent = parseInt(refCaja.current.textContent) * cambio;
-        // refCaja.current.style.backgroundColor = "red";
-        // refCaja.current.style.color = "white";
-        // refCaja.current.style.fontWeight = "bold";
-        // refCaja.current.style.fontSize = "40px";
-        // refCaja.current.style.textAlign = "center";
-        // refCaja.current.style.borderRadius = "10px";
-        // refCaja.current.style.userSelect = "none";
     };
 
     const cambioImagen = (e) => {
