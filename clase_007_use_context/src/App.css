@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #000;
+    min-height: calc(100vh - 40px);
+}
+
+.hijo {
+    width: 33.3%;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+.colores {
+    display: flex;
+}
+.color {
+    width: 22px;
+    height: 22px;
+    background: #ff0000;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.color:nth-child(1) {
+    background: #4285f4;
+}
+.color:nth-child(2) {
+    background: #ea4335;
+}
+.color:nth-child(3) {
+    background: #fbbc05;
+}
+.color:nth-child(4) {
+    background: #34a853;
+}
