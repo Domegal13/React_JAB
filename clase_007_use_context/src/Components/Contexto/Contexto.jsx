@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
 
-export const Contexto = createContext;
+export const Contexto = createContext();
 
 export const DatosProvider = ({ children }) => {
     const [color, setColor] = useState("silver");

@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Contexto } from "./Contexto/Contexto";
 
 const Pagina1 = () => {
-    return <div className="hijo">Pagina1</div>;
+    const { color } = useContext(Contexto);
+    return (
+        <div className="hijo" style={{ background: color }}>
+            Pagina1
+        </div>
+    );
 };
 
 export default Pagina1;
