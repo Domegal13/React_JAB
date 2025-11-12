@@ -7,7 +7,7 @@ const Profesora = () => {
     const imagen = `../images/${alumno[idioma].foto}`;
     return (
         <div className="profesora">
-            <h1>Profesora:</h1>;
+            <h1>{alumno[idioma].boton1}:</h1>
             <div className="foto">
                 <img className="imagen" src={imagen} alt="" />
             </div>
