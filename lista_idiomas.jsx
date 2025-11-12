@@ -30,3 +30,5 @@ const valores = [
         idioma: 0,
     },
 ];
+
+export default valores;

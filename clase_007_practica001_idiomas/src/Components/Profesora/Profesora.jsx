@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import Contexto from "../Contexto/Contexto";
 
 const Profesora = () => {
-    return <div>Profesora</div>;
+    const { alumno } = useContext(Contexto);
+    const idioma = alumno[3].idioma;
+    const imagen = `../images/${alumno[idioma].foto}`;
+    return (
+        <div className="profesora">
+            <h1>Profesora:</h1>;
+            <div className="foto">
+                <img className="imagen" src={imagen} alt="" />
+            </div>
+            <div className="nombre">{alumno[idioma].nombre}</div>
+        </div>
+    );
 };
 
 export default Profesora;
