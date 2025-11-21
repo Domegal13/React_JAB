@@ -1,7 +1,9 @@
-import React from "react";
-
 const Error404 = () => {
-    return <div>Erro 404, página no encontrada </div>;
+  return (
+    <div>
+      <h1>Error 404, página no encontrada</h1>
+    </div>
+  );
 };
 
 export default Error404;
