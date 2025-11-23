@@ -1,12 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Atanagildo from "./reyes/Atanagildo";
-import Ataulfo from "./reyes/Ataulfo";
-import Ervigio from "./reyes/Ervigio";
-import Leovigildo from "./reyes/Leovigildo";
-import Recesvinto from "./reyes/Recesvinto";
-import Sisebuto from "./reyes/Sisebuto";
 import Nav from "./Nav";
+import Modelo from "./reyes/Modelo";
 import Error404 from "./reyes/Error404";
 import Home from "./reyes/Home";
 
@@ -16,13 +11,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/atanagildo" element={<Atanagildo />} />
-        <Route path="/ataulfo" element={<Ataulfo />} />
-        <Route path="/ervigio" element={<Ervigio />} />
-        <Route path="/leovigildo" element={<Leovigildo />} />
-        <Route path="/leogivildo" element={<Navigate to={"/leovigildo"} />} />
-        <Route path="/recesvinto" element={<Recesvinto />} />
-        <Route path="/sisebuto" element={<Sisebuto />} />
+        <Route path="/reyes/:rey" element={<Modelo />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </BrowserRouter>
